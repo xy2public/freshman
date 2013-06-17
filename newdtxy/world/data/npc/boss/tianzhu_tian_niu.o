@@ -1,0 +1,7 @@
+#/d/qujing/tianzhu/npc/tian.c
+dbase (["id":"tian niu","max_kee":585,"kee":585,"gender":"女性","age":17,"name":"甜妞","atman":0,"can_speak":1,"race":"人类","eff_gin":142,"max_gin":142,"sen":351,"shop_id":({"tianniu","tian","niu",}),"startroom":"/d/qujing/tianzhu/maodian","gin":142,"default_actions":,"vendor_goods":(["mukui":"/d/qujing/tianzhu/obj/mukui","fengguan":"/d/qujing/tianzhu/obj/fengguan","tiekui":"/d/qujing/tianzhu/obj/tiekui","longguan":"/d/qujing/tianzhu/obj/longguan","simao":"/d/qujing/tianzhu/obj/simao",]),"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"actions":,"max_sen":351,"eff_kee":585,"per":30,"spi":14,"con":23,"cor":22,"int":13,"cps":24,"str":22,"unit":"位","kar":26,"force":0,"combat_exp":2000,"attitude":"friendly","eff_sen":351,"mana":0,"shen_type":1,])
+skills (["unarmed":30,])
+learned (["unarmed":0,])
+SAVE_NAME "tianzhu_tian_niu"
+price_ratio 10
+close_time 1240087587

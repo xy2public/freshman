@@ -1,0 +1,57 @@
+
+<---大唐西游记: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows 98 at Thu Nov 07 06:37:40 2002
+
+Initializing internal tables....
+using config file: D:\newdtxy\config.xyj
+open log/debug.log file failed.
+
+<---大唐西游记: MudOs v22pre11 (by wwj,Jan  1 1999) shutdown at Thu Nov 07 06:37:40 2002
+
+
+
+
+<---大唐西游记: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows 98 at Thu Nov 07 06:38:24 2002
+
+Initializing internal tables....
+using config file: D:\newdtxy\config.xyj
+open log/debug.log file failed.
+
+<---大唐西游记: MudOs v22pre11 (by wwj,Jan  1 1999) shutdown at Thu Nov 07 06:38:24 2002
+
+
+
+
+<---大唐西游记: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows 98 at Thu Nov 07 06:38:44 2002
+
+using config file: D:\newdtxy\config.xyj
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: WSAECONNREFUSED
+]simul_efun loaded successfully.
+
+Loading preloaded files ...
+Initializations complete.
+
+Accepting connections on port 6666.
+Initializing internal tables....
+
+<---大唐西游记: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows 98 at Wed Dec 11 22:04:59 2002
+
+using config file: D:\newdtxy\config.xyj
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: WSAECONNREFUSED
+]simul_efun loaded successfully.
+
+Loading preloaded files ...
+Initializations complete.
+
+Accepting connections on port 6666.
+
+执行时段错误：*Illegal to move or destruct an object defining actions from a verb function which returns zero.
+
+程式：std/char.c 第 227 行
+物件: /d/qujing/wuzhuang/npc/mingyue#189
+呼叫来自：d/qujing/wuzhuang/npc/mingyue.c 的 greeting() 第 51 行，物件： d/qujing/wuzhuang/npc/mingyue#189 ("明月")
+呼叫来自：std/char.c 的 command() 第 227 行，物件： d/qujing/wuzhuang/npc/mingyue#189 ("明月")
+Initializing internal tables....
