@@ -6,6 +6,7 @@
 #include "lex.h"
 #include "preprocess.h"
 #include "edit_source.h"
+#include <stdlib.h>
 
 #ifdef WIN32
 #define MSDOS

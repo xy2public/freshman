@@ -15,6 +15,7 @@
 #include <process.h>
 #include <malloc.h>
 #endif
+#include <stdlib.h>
 
 #if defined(DEBUG) || defined(WIN32)
 #define TO_DEV_NULL ""
@@ -1449,8 +1450,8 @@ static void handle_configure() {
 
     /* sys/dir.h is BSD, dirent is sys V.  Try to do it the BSD way first. */
     /* If that fails, fall back to sys V */
-    if (check_prog("BSD_READDIR", "#include <sys/dir.h>", "struct direct *d; d->d_namlen;", 0)) {
-	check_include("INCL_SYS_DIR_H", "sys/dir.h");
+    if (check_prog("BSD_READDIR", "#include <dirent.h>", "struct direct *d; d->d_namlen;", 0)) {
+	check_include("INCL_SYS_DIR_H", "dirent.h");
     } else {
 	/* could be either of these */
 	check_include("INCL_DIRENT_H", "dirent.h");

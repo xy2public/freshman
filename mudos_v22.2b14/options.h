@@ -248,7 +248,7 @@
  *
  * Compat status: Easily simulated.
  */
-#define OLD_ED
+#undef OLD_ED
 
 /* SENSIBLE_MODIFIERS:
  * Turning this on changes a few things, which may break old code:
@@ -752,7 +752,7 @@
  * [NOTE: BINARIES must also be defined for LPC->C to work.  Actually
  *  using binaries is not required, though.]
  */
-#define LPC_TO_C
+#undef LPC_TO_C
 
 /* RUNTIME_LOADING: On systems which support it, it allows LPC->C compilation
  * 'on the fly' without having to recompile the driver.

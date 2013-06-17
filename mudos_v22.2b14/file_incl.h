@@ -10,7 +10,7 @@
 
 #ifndef linux
 #ifdef INCL_SYS_DIRENT_H
-#  include <sys/dirent.h>
+#  include <dirent.h>
 #endif
 #endif
 

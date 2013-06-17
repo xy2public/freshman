@@ -11,6 +11,7 @@
 #include "port.h"
 #include "master.h"
 
+#define USE_STRUCT_DIRENT
 /* Removed due to hideousness: if you want to add it back, note that
  * we don't want redefinitions, and that some systems define major() in
  * one place, some in both, etc ...

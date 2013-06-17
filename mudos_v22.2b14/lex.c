@@ -2230,9 +2230,9 @@ static void init_instrs()
 
     for (i = 0; i < BASE; i++) {
 	instrs[i].ret_type = -1;
-#ifdef LPC_TO_C
-	instrs[i].routine = "???();\n";
-#endif
+//#ifdef LPC_TO_C
+//	instrs[i].routine = "???();\n";
+//#endif
     }
     for (i = 0; i < NELEM(predefs); i++) {
 	n = predefs[i].token;

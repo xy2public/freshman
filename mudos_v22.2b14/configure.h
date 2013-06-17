@@ -18,7 +18,7 @@
 #define INCL_SYS_SOCKETVAR_H
 #define INCL_SYS_STAT_H
 #define BSD_READDIR
-#define INCL_SYS_DIR_H
+#define INCL_SYS_DIRENT_H
 #define INCL_SYS_FILIO_H
 #define INCL_SYS_SOCKIO_H
 #define INCL_SYS_RESOURCE_H

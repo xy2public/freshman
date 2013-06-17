@@ -14,6 +14,7 @@ static void handle_cond PROT((int));
 #undef DREALLOC
 #define DREALLOC(w, x, y, z) realloc(w, x)
 #endif
+#include <stdlib.h>
 
 static defn_t *defns[DEFHASH];
 static ifstate_t *iftop = 0;
