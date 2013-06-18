@@ -1,0 +1,7 @@
+.bash_profile中增加
+export GIT_EDITOR=vim
+
+git config --global -e会打开配置文件，然后增加
+[i18n]
+	commitencoding = gbk
+	logoutputencoding = gbk
