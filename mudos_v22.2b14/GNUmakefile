@@ -1,4 +1,4 @@
-MAKE=make
+MAKE=gmake
 SHELL=/bin/sh
 OBJDIR=obj
 DRIVER_BIN=driver
