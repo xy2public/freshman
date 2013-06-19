@@ -31,10 +31,13 @@ mud启动参数
 –c是否输出编译信息
 –t t_flag++ 是否调用call_heart_beat
 dtxy启动调试
+
 添加static目录.  
+
 执行时段错误：*Wrong permissions for opening file /log/static/CRASHES for append.
 将i < size 改成 i < sizeof(buf1)
 Miscd.c 39行，报2nd argument to < is not numeric when the 1st is.
+
 #define CFG_MAX_LOCAL_VARIABLES  25  修改为 100
 执行时段错误：*Error in loading object '/adm/daemons/combatd'
 Log文件报/adm/daemons/combatd.c line 1343: Too many local variables before the end of line
